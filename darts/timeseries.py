@@ -2294,7 +2294,7 @@ class TimeSeries:
         Returns
         -------
         TimeSeries
-            A new TimeSeries, after `ts`.
+            A new TimeSeries, before `ts`.
         """
         return self[: self.get_index_at_point(split_point, after=True)]
 
